@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Poppins:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins','PT Serif', sans-serif;
+    font-size: 20px;
+    color: #333;
+    background: rgb(254, 222, 161);
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header{
+    background: rgb(255, 205, 111);
+    height: 60px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.logo{
+    font-size: x-large;
+    font-weight:bold;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+li{
+    margin-left: 15px;
+}
+
+a{
+    font-size: 21px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover{
+    color: #c82e2e;
+}
+
+.main{
+    background: rgb(253, 187, 65);
+}
+
+.main .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img{
+    width: 450px;
+}
+h1{
+   font-size: 55px;
+}
+
+.section .container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+
+}
+
+h2{
+    font-size: 26px;
+    padding-bottom: 10px;
+
+}
+
+.box{
+    flex:1;
+    background: rgb(253, 187, 65);
+    border: 5px solid rgb(253, 187, 65);;
+    border-radius: 15px;
+    box-shadow: 6px 6px 7px #333;;
+    margin: 0px 10px ;
+    padding: 15px 20px;
+    
+    
+}
